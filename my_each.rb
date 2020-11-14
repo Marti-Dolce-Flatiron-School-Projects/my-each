@@ -5,7 +5,7 @@
 # Contact: me@martidolce.com | https://modis.martidolce.com
 def my_each(collection)
   i = 0
-  while i < collection.length
+  while collection.length > i
     yield(collection[i])
     i += 1
   end
